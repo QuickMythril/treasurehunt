@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h3 {
+    text-align: center;
+    color: #1e90ff;
+}
+
+div {
+    color: #1e90ff;
+}
+
+a {
+    color: #0254f1;
+}
+
+.treasure-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.treasure-number {
+    font-weight: bold;
+}
+
+.treasure-link {
+    margin-top: 5px;
+}
+
+.treasure-clue {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.treasure-balance {
+    color: #bb9645;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.treasure-claimed {
+    color: Tomato;
+    margin-top: 5px;
+    font-weight: bold;
+}
