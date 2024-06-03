@@ -51,7 +51,7 @@ function createTreasureItem(treasure) {
 
     fetchBalance(treasure.address)
         .then(balance => {
-            if (balance > 0) {
+            if (balance > 0.011) {
                 treasureBalance.textContent = `Treasure Value: ${balance} QORT`;
             } else {
                 treasureBalance.className = "treasure-claimed";
